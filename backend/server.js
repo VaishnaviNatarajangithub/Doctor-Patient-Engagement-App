@@ -20,10 +20,10 @@ connectCloudinary()
 app.use(express.json())
 
 app.use(cors({
-    origin: "http://localhost:5174",
+    origin: "https://doctor-appointment-booking-app-admin-2zlf.onrender.com"
     credentials: true
 }));
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
+const allowedOrigins = ['https://doctor-patient-engagement-app-frontend.onrender.com', 'https://doctor-appointment-booking-app-admin-2zlf.onrender.com'];
 
 app.use(cors({
   origin: function(origin, callback) {
