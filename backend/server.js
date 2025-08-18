@@ -80,7 +80,6 @@ app.use(express.urlencoded({ extended: true }));
 // CORS setup
 app.use(cors({
   origin: ["https://doctor-patient-engagement-app-frontend.onrender.com", "https://doctor-appointment-booking-app-admin-2zlf.onrender.com"],
-,
   credentials: true
 }));
 
